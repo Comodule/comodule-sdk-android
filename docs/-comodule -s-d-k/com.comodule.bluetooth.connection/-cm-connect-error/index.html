@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>CmConnectError</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Comodule SDK
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":cmSdk:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Comodule SDK::com.comodule.bluetooth.connection/CmConnectError///PointingToDeclaration//237758736">
+  <div class="breadcrumbs"><a href="../../../index.html">Comodule SDK</a><span class="delimiter">/</span><a href="../index.html">com.comodule.bluetooth.connection</a><span class="delimiter">/</span><span class="current">CmConnectError</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Cm</span><wbr></wbr><span>Connect</span><wbr></wbr><span><span>Error</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="index.html">CmConnectError</a></div><p class="paragraph">Defines a hierarchy of errors that can occur during the connection process to a module.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-unexpected-error/index.html">CmUnexpectedError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-aborted/index.html">CmAborted</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-invalid-api-key/index.html">CmInvalidApiKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-network-error/index.html">CmNetworkError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-invalid-private-key/index.html">CmInvalidPrivateKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-bluetooth-disabled/index.html">CmBluetoothDisabled</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-missing-permissions/index.html">CmMissingPermissions</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-missing-service/index.html">CmMissingService</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-missing-characteristic/index.html">CmMissingCharacteristic</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-cm-bonding-error/index.html">CmBondingError</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1187321194%2FClasslikes%2F237758736" anchor-label="CmAborted" id="1187321194%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-aborted/index.html"><span>Cm</span><wbr></wbr><span><span>Aborted</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1187321194%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-aborted/index.html">CmAborted</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Represents a situation where the connection process was aborted by the user or the system.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2114182065%2FClasslikes%2F237758736" anchor-label="CmBluetoothDisabled" id="-2114182065%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-bluetooth-disabled/index.html"><span>Cm</span><wbr></wbr><span>Bluetooth</span><wbr></wbr><span><span>Disabled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2114182065%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-bluetooth-disabled/index.html">CmBluetoothDisabled</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Triggered when Bluetooth is disabled on the device, preventing any BLE communication.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1094483936%2FClasslikes%2F237758736" anchor-label="CmBondingError" id="-1094483936%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-bonding-error/index.html"><span>Cm</span><wbr></wbr><span>Bonding</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1094483936%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-bonding-error/index.html">CmBondingError</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Indicates a failure to establish a bonded pair with the module, which is necessary for secure communication.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1027746077%2FClasslikes%2F237758736" anchor-label="CmInvalidApiKey" id="1027746077%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-invalid-api-key/index.html"><span>Cm</span><wbr></wbr><span>Invalid</span><wbr></wbr><span>Api</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1027746077%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-invalid-api-key/index.html">CmInvalidApiKey</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Indicates the provided API key is invalid, which is essential for authenticating the connection request.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1232597882%2FClasslikes%2F237758736" anchor-label="CmInvalidPrivateKey" id="-1232597882%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-invalid-private-key/index.html"><span>Cm</span><wbr></wbr><span>Invalid</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1232597882%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-invalid-private-key/index.html">CmInvalidPrivateKey</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Occurs when authentication with the module fails due to an invalid private key.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="790535896%2FClasslikes%2F237758736" anchor-label="CmMissingCharacteristic" id="790535896%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-missing-characteristic/index.html"><span>Cm</span><wbr></wbr><span>Missing</span><wbr></wbr><span><span>Characteristic</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="790535896%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cm-missing-characteristic/index.html">CmMissingCharacteristic</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Occurs when expected BLE characteristic, identified by UUID, is missing, possibly indicating an issue with the module.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1175978891%2FClasslikes%2F237758736" anchor-label="CmMissingPermissions" id="1175978891%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-missing-permissions/index.html"><span>Cm</span><wbr></wbr><span>Missing</span><wbr></wbr><span><span>Permissions</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1175978891%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cm-missing-permissions/index.html">CmMissingPermissions</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Indicates one or more required permissions are missing, detailing which permissions are needed.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1811265914%2FClasslikes%2F237758736" anchor-label="CmMissingService" id="1811265914%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-missing-service/index.html"><span>Cm</span><wbr></wbr><span>Missing</span><wbr></wbr><span><span>Service</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1811265914%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cm-missing-service/index.html">CmMissingService</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Occurs when expected BLE service, identified by UUID, is missing, possibly indicating an issue with the module.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2047593423%2FClasslikes%2F237758736" anchor-label="CmNetworkError" id="2047593423%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-network-error/index.html"><span>Cm</span><wbr></wbr><span>Network</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2047593423%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-network-error/index.html">CmNetworkError</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Signifies a network error prevented fetching necessary configuration for BLE (Bluetooth Low Energy) communication.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="497456642%2FClasslikes%2F237758736" anchor-label="CmUnexpectedError" id="497456642%2FClasslikes%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cm-unexpected-error/index.html"><span>Cm</span><wbr></wbr><span>Unexpected</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="497456642%2FClasslikes%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">object </span><a href="-cm-unexpected-error/index.html">CmUnexpectedError</a> : <a href="index.html">CmConnectError</a></div><div class="brief "><p class="paragraph">Indicates an unexpected error occurred that doesn't fit into the predefined error categories.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1406030997%2FProperties%2F237758736" anchor-label="message" id="1406030997%2FProperties%2F237758736" data-filterable-set=":cmSdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":cmSdk:dokkaHtml/release" data-filterable-set=":cmSdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message.html"><span><span>message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1406030997%2FProperties%2F237758736"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":cmSdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="message.html">message</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">A human-readable message describing the error.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Comodule OÜ. All rights reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
