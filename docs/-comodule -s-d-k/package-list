@@ -2,10 +2,15 @@ $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:com.comodule.bluetooth.connection////PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/index.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmAborted///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-aborted/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmAborted/CmAborted/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-aborted/-cm-aborted.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmBluetoothDisabled///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-bluetooth-disabled/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmBluetoothDisabled/CmBluetoothDisabled/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-bluetooth-disabled/-cm-bluetooth-disabled.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmBondingError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-bonding-error/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmBondingError/CmBondingError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-bonding-error/-cm-bonding-error.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmInvalidApiKey///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-invalid-api-key/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmInvalidApiKey/CmInvalidApiKey/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-invalid-api-key/-cm-invalid-api-key.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmInvalidPrivateKey///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-invalid-private-key/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmInvalidPrivateKey/CmInvalidPrivateKey/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-invalid-private-key/-cm-invalid-private-key.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingCharacteristic///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-missing-characteristic/index.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingCharacteristic/uuid/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-missing-characteristic/uuid.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingPermissions///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-missing-permissions/index.html
@@ -13,7 +18,9 @@ $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingPermis
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingService///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-missing-service/index.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmMissingService/uuid/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-missing-service/uuid.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmNetworkError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-network-error/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmNetworkError/CmNetworkError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-network-error/-cm-network-error.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmUnexpectedError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-unexpected-error/index.html
+$dokka.location:com.comodule.bluetooth.connection/CmConnectError.CmUnexpectedError/CmUnexpectedError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/-cm-unexpected-error/-cm-unexpected-error.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/index.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectError/message/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-error/message.html
 $dokka.location:com.comodule.bluetooth.connection/CmConnectResult.Failure///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.connection/-cm-connect-result/-failure/index.html
@@ -56,13 +63,21 @@ $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdate.NrfBootl
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdate.Stm///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update/-stm/index.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdate///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update/index.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmAborted///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-aborted/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmAborted/CmAborted/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-aborted/-cm-aborted.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmBluetoothDisabled///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-bluetooth-disabled/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmBluetoothDisabled/CmBluetoothDisabled/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-bluetooth-disabled/-cm-bluetooth-disabled.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmModuleNotConnected///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-module-not-connected/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmModuleNotConnected/CmModuleNotConnected/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-module-not-connected/-cm-module-not-connected.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmNetworkError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-network-error/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmNetworkError/CmNetworkError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-network-error/-cm-network-error.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmNoUpdateAvailable///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-no-update-available/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmNoUpdateAvailable/CmNoUpdateAvailable/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-no-update-available/-cm-no-update-available.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUnexpectedError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-unexpected-error/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUnexpectedError/CmUnexpectedError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-unexpected-error/-cm-unexpected-error.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUpdateCommandError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-update-command-error/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUpdateCommandError/CmUpdateCommandError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-update-command-error/-cm-update-command-error.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUpdateOngoing///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-update-ongoing/index.html
+$dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUpdateOngoing/CmUpdateOngoing/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-update-ongoing/-cm-update-ongoing.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUploadError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-upload-error/index.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUploadError/dfuErrorCode/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-upload-error/dfu-error-code.html
 $dokka.location:com.comodule.bluetooth.firmware_update/CmFirmwareUpdateError.CmUploadError/dfuErrorMessage/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.firmware_update/-cm-firmware-update-error/-cm-upload-error/dfu-error-message.html
@@ -193,14 +208,23 @@ $dokka.location:com.comodule.bluetooth.property/CmPropertyValue.States/States/#k
 $dokka.location:com.comodule.bluetooth.property/CmPropertyValue.States/identifier/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-property-value/-states/identifier.html
 $dokka.location:com.comodule.bluetooth.property/CmPropertyValue///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-property-value/index.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmFirmwareUpdateOngoingError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-firmware-update-ongoing-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmFirmwareUpdateOngoingError/CmFirmwareUpdateOngoingError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-firmware-update-ongoing-error/-cm-firmware-update-ongoing-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmInvalidWriteStepError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-invalid-write-step-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmInvalidWriteStepError/CmInvalidWriteStepError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-invalid-write-step-error/-cm-invalid-write-step-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmModuleNotConnected///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-module-not-connected/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmModuleNotConnected/CmModuleNotConnected/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-module-not-connected/-cm-module-not-connected.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyNotFoundError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-not-found-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyNotFoundError/CmPropertyNotFoundError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-not-found-error/-cm-property-not-found-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyNotWritableError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-not-writable-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyNotWritableError/CmPropertyNotWritableError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-not-writable-error/-cm-property-not-writable-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyWrongTypeError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-wrong-type-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmPropertyWrongTypeError/CmPropertyWrongTypeError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-property-wrong-type-error/-cm-property-wrong-type-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmRangeOutOfBoundsError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-range-out-of-bounds-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmRangeOutOfBoundsError/CmRangeOutOfBoundsError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-range-out-of-bounds-error/-cm-range-out-of-bounds-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmUnexpectedError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-unexpected-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmUnexpectedError/CmUnexpectedError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-unexpected-error/-cm-unexpected-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmUnknownStateError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-unknown-state-error/index.html
+$dokka.location:com.comodule.bluetooth.property/CmWriteError.CmUnknownStateError/CmUnknownStateError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-unknown-state-error/-cm-unknown-state-error.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmValueBytesInvalidSizeError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-value-bytes-invalid-size-error/index.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError.CmValueBytesInvalidSizeError/capacity/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/-cm-value-bytes-invalid-size-error/capacity.html
 $dokka.location:com.comodule.bluetooth.property/CmWriteError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.property/-cm-write-error/index.html
@@ -220,6 +244,18 @@ $dokka.location:com.comodule.bluetooth.scan/CmScanDuration/valueOf/#kotlin.Strin
 $dokka.location:com.comodule.bluetooth.scan/CmScanDuration/values/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth.scan/-cm-scan-duration/values.html
 $dokka.location:com.comodule.bluetooth////PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/index.html
 $dokka.location:com.comodule.bluetooth//defaultPrivateKey/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/default-private-key.html
+$dokka.location:com.comodule.bluetooth/CmDataToCloudError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-data-to-cloud-error/index.html
+$dokka.location:com.comodule.bluetooth/CmDataToCloudError/CmDataToCloudError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-data-to-cloud-error/-cm-data-to-cloud-error.html
+$dokka.location:com.comodule.bluetooth/CmError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-error/index.html
+$dokka.location:com.comodule.bluetooth/CmError/toString/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-error/to-string.html
+$dokka.location:com.comodule.bluetooth/CmExternalUpdateCheckError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-external-update-check-error/index.html
+$dokka.location:com.comodule.bluetooth/CmExternalUpdateCheckError/CmExternalUpdateCheckError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-external-update-check-error/-cm-external-update-check-error.html
+$dokka.location:com.comodule.bluetooth/CmInvalidDtcBytesError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-dtc-bytes-error/index.html
+$dokka.location:com.comodule.bluetooth/CmInvalidDtcBytesError/CmInvalidDtcBytesError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-dtc-bytes-error/-cm-invalid-dtc-bytes-error.html
+$dokka.location:com.comodule.bluetooth/CmInvalidFirmwareUpdateError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-firmware-update-error/index.html
+$dokka.location:com.comodule.bluetooth/CmInvalidFirmwareUpdateError/CmInvalidFirmwareUpdateError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-firmware-update-error/-cm-invalid-firmware-update-error.html
+$dokka.location:com.comodule.bluetooth/CmInvalidPropertyInfoError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-property-info-error/index.html
+$dokka.location:com.comodule.bluetooth/CmInvalidPropertyInfoError/CmInvalidPropertyInfoError/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-property-info-error/-cm-invalid-property-info-error.html
 $dokka.location:com.comodule.bluetooth/CmModule///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/index.html
 $dokka.location:com.comodule.bluetooth/CmModule/name/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/name.html
 $dokka.location:com.comodule.bluetooth/CmModule/serial/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/serial.html
@@ -239,7 +275,7 @@ $dokka.location:com.comodule.bluetooth/CmSdk/setApiKey/#kotlin.String/PointingTo
 $dokka.location:com.comodule.bluetooth/CmSdk/setPropertyValue/#kotlin.String#com.comodule.bluetooth.property.CmPropertyValue/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/set-property-value.html
 $dokka.location:com.comodule.bluetooth/CmSdk/updateFirmware/#java.lang.Class[android.app.Activity]/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/update-firmware.html
 $dokka.location:com.comodule.bluetooth/CmSdkBuilder///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk-builder/index.html
-$dokka.location:com.comodule.bluetooth/CmSdkBuilder/getInstance/#android.content.Context/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk-builder/get-instance.html
+$dokka.location:com.comodule.bluetooth/CmSdkBuilder/getInstance/#android.content.Context#kotlin.Boolean/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk-builder/get-instance.html
 com.comodule.bluetooth
 com.comodule.bluetooth.connection
 com.comodule.bluetooth.firmware_info
