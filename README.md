@@ -6,30 +6,8 @@ The Comodule SDK is a versatile framework designed for native Android applicatio
 
 The SDK supports Android 10 and above.
 
-## Table of contents
-- [API documentation](#api-documentation)
-- [Setup](#setup)
-	- [Adding dependency](#adding-dependency)
-	- [Declaring permissions](#declaring-permissions)
-	- [Requesting permissions](#requesting-permissions)
-- [Getting started](#getting-started)
-	- [Initializing the SDK](#initializing-the-sdk)
-	- [Discovering modules](#discovering-modules)
-	- [Connecting to module and module status](#connecting-to-module-and-module-status)
-	- [Disconnecting from a module](#disconnecting-from-a-module)
-	- [Vehicle properties](#vehicle-properties)
-		- [Discovering what the module is able to do](#discovering-what-the-module-is-able-to-do)
-		- [Subscribing to all available properties](#subscribing-to-all-available-properties)
-		- [Subscribing to a specific property](#subscribing-to-a-specific-property)
-		- [Writing properties](#writing-properties)
-	- [Firmware update](#firmware-update)
-		- [Preparations and current firmware info](#preparations-and-current-firmware-info)
-		- [Firmware update status](#firmware-update-status)
-		- [Starting Firmware update](#starting-firmware-update)
-	- [What else can the SDK do?](#what-else-can-the-sdk-do)
-		- [Logging](#logging)
-		- [Clearing cache](#clearing-cache)
-- [Need help or encountering issues?](#need-help-or-encountering-issues)
+## Changelog
+The Changelog can be found [here](https://github.com/Comodule/comodule-sdk-android/blob/main/CHANGELOG.md).
 
 ## API documentation
 The API documentation can be found [here](https://comodule.github.io/comodule-sdk-android/index.html). It can be also viewed in Android Studio when `Cmd`/`Ctrl` clicking declarations.
