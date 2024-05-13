@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.3) - 2024-05-10
+
+### Fixed
+
+- Fixes a where some properties do not update.
+
 ## [1.0.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.2) - 2024-04-29
 
 ### Fixed
