@@ -2,11 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.4) - 2024-05-17
+
+### Added
+- Added additional error handling for Bluetooth errors
+- Added additional logging
+
+### Changed
+- Improved connection speed by using only direct connection
+
+### Fixed
+
+- Fixed a bug where the SDK connected to the module during an ongoing firmware update.
+
 ## [1.0.3](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.3) - 2024-05-10
 
 ### Fixed
 
-- Fixes a bug where some properties do not update.
+- Fixed a bug where some properties do not update.
 
 ## [1.0.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.2) - 2024-04-29
 
