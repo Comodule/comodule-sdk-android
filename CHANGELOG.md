@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.5) - 2024-05-22
+
+### Changed
+- Allow to connect to modules when no BLE config is present
+
+### Fixed
+- Fixed a bug where Bluetooth pairing dialog did not appear again if it was ignored by user the first time
+- Fixed a bug where wrong module name was sometimes outputted during Connecting-Searching stage
+
 ## [1.0.4](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.4) - 2024-05-17
 
 ### Added
