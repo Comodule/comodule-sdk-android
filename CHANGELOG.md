@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.6) - 2024-05-27
+
+### Fixed
+- Fixed a bug where connection state Disconnected was emitted too early after a failed connection attempt
+
 ## [1.0.5](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.5) - 2024-05-22
 
 ### Changed
