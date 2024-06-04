@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.1.0) - 2024-06-04
+
+### Changed
+- Improved connection speed by caching module's MAC address after the first scan
+- Exposed properties that failed to initialize for debugging purposes
+
 ## [1.0.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.0.6) - 2024-05-27
 
 ### Fixed
