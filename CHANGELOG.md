@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.0) - 2024-06-07
+
+### Changed
+- Added more structured logging for Data to Cloud
+- Remove periodic checks for external versions for modules that do not have external versions
+- Removed second query for external verions when parsing firmware info
+
+### Fixed
+- Fixed a bug where values were not written correctly if multiple properties were assigned to the same register position
+- Fixed connection error not being cleared timely
+- Fixed Data to Cloud not sending data in some cases
+- Fixed a crash that was sometimes happening when performing Data to Cloud
+
 ## [1.1.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.1.0) - 2024-06-04
 
 ### Changed
