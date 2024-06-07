@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.1) - 2024-06-07
+
+### Fixed
+- Removed a faulty error log
+
 ## [1.2.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.0) - 2024-06-07
 
 ### Changed
