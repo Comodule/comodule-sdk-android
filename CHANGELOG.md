@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.2) - 2024-06-26
+
+### Fixed
+- Fixed a regression introduced in version [1.2.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.0) that caused some firmware updates to get stuck on the `Initiating` step
+
 ## [1.2.1](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.1) - 2024-06-07
 
 ### Fixed
