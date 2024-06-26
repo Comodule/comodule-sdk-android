@@ -262,6 +262,8 @@ $dokka.location:com.comodule.bluetooth/CmModule///PointingToDeclaration/-comodu
 $dokka.location:com.comodule.bluetooth/CmModule/name/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/name.html
 $dokka.location:com.comodule.bluetooth/CmModule/serial/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/serial.html
 $dokka.location:com.comodule.bluetooth/CmPropertyReadError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-property-read-error/index.html
+$dokka.location:com.comodule.bluetooth/CmSdk.Companion///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/-companion/index.html
+$dokka.location:com.comodule.bluetooth/CmSdk.Companion/create/#android.content.Context#kotlin.String#kotlin.Boolean/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/-companion/create.html
 $dokka.location:com.comodule.bluetooth/CmSdk///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/index.html
 $dokka.location:com.comodule.bluetooth/CmSdk/clearCache/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/clear-cache.html
 $dokka.location:com.comodule.bluetooth/CmSdk/connect/#kotlin.String#kotlin.String/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/connect.html
