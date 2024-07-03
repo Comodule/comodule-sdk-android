@@ -56,10 +56,18 @@ The following section provides simple examples on using the Comodule Bluetooth S
 
 ### Initializing the SDK
 
-Comodule SDK is intended to be used as a singleton, and can be created by calling [CmSdkBuilder.getInstance(context)](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk-builder/get-instance.html)
+Comodule SDK is intended to be used as a singleton, and can be created by calling:
+[`CmSdk.create(context, apiKey)`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/-companion/create.html). The API key is provided by Comodule.
 
-All the SDK functionalities can be accessed using the `CmSdk` instance. The available functions can be found [here](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/index.html).
+NB: Please, make sure that the `create` method is called only once, as calling it repeatedly will produce different instances each time and may cause unpredictable results.
 
+```kotlin
+val cmSdk = CmSdk.create(context = context, apiKey = API_KEY)
+```
+
+If necessary, the API key can be updated later by calling [`CmSdk.setApiKey`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/set-api-key.html).
+
+All the SDK functionalities can be accessed using the `CmSdk` instance. The available methods can be found [here](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/index.html).
 
 ### Discovering modules
 
