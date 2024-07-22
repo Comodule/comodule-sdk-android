@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.3-compat](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.3-compat) - 2024-07-22
+
+### Changed
+- Downgraded appcompat and kotlinx.serialization dependencies to same as in version [1.2.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.2)
+
+## [1.2.3](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.3) - 2024-07-16
+
+### Changed
+- Updated dependencies
+
+### Fixed
+- Fixed an issue where Data to Cloud failed to send big batches of data
+
 ## [1.2.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.2) - 2024-06-26
 
 ### Changed
