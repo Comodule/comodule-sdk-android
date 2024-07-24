@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.4](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.4), [1.2.4-compat](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.4-compat) - 2024-07-24
+
+### Fixed
+- Fixed an issue introduced in [1.2.3](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.3) that caused properties to not receive updates after connecting to the module more than once
+
 ## [1.2.3-compat](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.3-compat) - 2024-07-22
 
 ### Changed
