@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.6) - 2024-08-02
+
+### Fixed
+- Fixed Data to Cloud running while an external firmware update is ongoing
+
 ## [1.2.5](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.5) - 2024-07-26
 
 ### Fixed
