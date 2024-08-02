@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.5](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.5) - 2024-07-26
+
+### Fixed
+- Fixed faulty proguard configuration
+
 ## [1.2.4](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.4), [1.2.4-compat](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.4-compat) - 2024-07-24
 
 ### Fixed
