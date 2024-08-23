@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.3.0) - 2024-08-23
+
+### Breaking changes
+- `disconnect()` has been updated to a suspend function
+### Fixed
+- Fixed an intermittent crash when losing BLE connection
+
 ## [1.2.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.2.6) - 2024-08-02
 
 ### Fixed
