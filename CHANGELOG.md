@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.4.0) - 2024-09-13
+
+### Changed
+- Added support for writing muti-byte values for Range and States properties (Raw properties supported it already)
+
 ## [1.3.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.3.0) - 2024-08-23
 
 ### Breaking changes
