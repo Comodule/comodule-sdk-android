@@ -255,7 +255,6 @@ $dokka.location:com.comodule.bluetooth/CmDescriptorWriteError///PointingToDeclar
 $dokka.location:com.comodule.bluetooth/CmError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-error/index.html
 $dokka.location:com.comodule.bluetooth/CmError/toString/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-error/to-string.html
 $dokka.location:com.comodule.bluetooth/CmFailedToReconnectError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-failed-to-reconnect-error/index.html
-$dokka.location:com.comodule.bluetooth/CmInvalidDtcBytesError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-dtc-bytes-error/index.html
 $dokka.location:com.comodule.bluetooth/CmInvalidFirmwareUpdateError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-firmware-update-error/index.html
 $dokka.location:com.comodule.bluetooth/CmInvalidPropertyInfoError///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-invalid-property-info-error/index.html
 $dokka.location:com.comodule.bluetooth/CmModule///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-module/index.html
