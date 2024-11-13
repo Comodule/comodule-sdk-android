@@ -6,11 +6,38 @@ The Comodule SDK is a versatile framework designed for native Android applicatio
 
 The SDK supports Android 10 and above.
 
-## Changelog
+## Table of contents
+- [Important resources](#important-resources)
+  - [Changelog](#changelog)
+  - [API documentation](#api-documentation)
+- [Setup](#setup)
+  - [Adding dependency](#adding-dependency)
+  - [Permissions](#permissions)
+- [Getting started](#getting-started)
+  - [Initializing the SDK](#initializing-the-sdk)
+  - [Discovering modules](#discovering-modules)
+  - [Connecting to module and module status](#connecting-to-module-and-module-status)
+  - [Disconnecting from a module](#disconnecting-from-a-module)
+  - [Vehicle properties](#vehicle-properties)
+    - [Discovering what the module is able to do](#discovering-what-the-module-is-able-to-do)
+    - [Subscribing to all available properties](#subscribing-to-all-available-properties)
+    - [Subscribing to a specific property](#subscribing-to-a-specific-property)
+    - [Writing properties](#writing-properties)
+  - [Firmware update](#firmware-update)
+    - [Preparations and current firmware info](#preparations-and-current-firmware-info)
+    - [Firmware update status](#firmware-update-status)
+    - [Starting Firmware update](#starting-firmware-update)
+  - [What else can the SDK do?](#what-else-can-the-sdk-do)
+    - [Logging](#logging)
+    - [Clearing cache](#clearing-cache)
+- [Need help or encountering issues?](#need-help-or-encountering-issues)
+
+## Important resources
+### Changelog
 The Changelog can be found [here](https://github.com/Comodule/comodule-sdk-android/blob/main/CHANGELOG.md).
 
-## API documentation
-The API documentation can be found [here](https://comodule.github.io/comodule-sdk-android/index.html). It can be also viewed in Android Studio when `Cmd`/`Ctrl` clicking declarations.
+### API documentation
+The API documentation is an essential resource for working with Comodule SDK. It provides comprehensive details on all exposed methods, including descriptions of states and corner cases. Please refer to it for the most accurate and up-to-date information. The documentation can be found [here](https://comodule.github.io/comodule-sdk-android/index.html) or viewed in Android Studio when `Cmd`/`Ctrl` clicking declarations.
 
 ## Setup
 
@@ -21,28 +48,10 @@ implementation("com.comodule:bluetooth:<version>")
 ```
 You can check available versions on [Maven Central Portal](https://central.sonatype.com/artifact/com.comodule/bluetooth). We recommend always using the latest version of the SDK.
 
-### Declaring permissions
-Comodule SDK takes care of declaring bluetooth permissions. You don't have to add these to your application.
+### Permissions
+Comodule SDK takes care of declaring permissions required for its operation in the Manifest, so you don't need to include them youself.
 
-#### Bluetooth permissions
-##### For Android 12+
-- `android.permission.BLUETOOTH_SCAN`
-- `android.permission.BLUETOOTH_CONNECT`
-
-##### For Android 10...11
-- `android.permission.BLUETOOTH`
-- `android.permission.BLUETOOTH_ADMIN`
-- `android.permission.ACCESS_FINE_LOCATION`
-- `android.permission.ACCESS_COARSE_LOCATION`
-
-#### Other permissions
-
- - `android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE`
- - `android.permission.INTERNET`
- - `android.permission.FOREGROUND_SERVICE`
-
-### Requesting permissions
-Comodule SDK does not handle requesting bluetooth permissions. The following permissions must be requested by your application before initiating discovery or connection:
+However, Comodule SDK does not handle requesting Bluetooth permissions. The following permissions must be requested by your application before initiating discovery or connection:
 - `android.permission.BLUETOOTH_SCAN` on Android 12+
 - `android.permission.BLUETOOTH_CONNECT` on Android 12+
 - `android.permission.BLUETOOTH` on Android 10..11
