@@ -12,9 +12,6 @@ All notable changes to this project will be documented in this file.
 ### Breaking changes
 - Fixed the state indicating that the module was updating an external component. Previously communicated using CmFirmwareUpdateStep.Updating, it has been replaced by a new update status: CmFirmwareUpdateStatus.ModuleUpdatingComponent. This is more accurate, as the state is neither initiated nor controlled by the SDK and does not technically represent a "step" in the firmware update process but rather a separate status. The CmConnectionState output during both external and regular updates remains unchanged: CmConnectionState.FirmwareUpdateOngoing.
 
-### Changed
-- Added support for writing muti-byte values for Range and States properties (Raw properties supported it already)
-
 ## [1.4.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.4.0) - 2024-09-13
 
 ### Changed
