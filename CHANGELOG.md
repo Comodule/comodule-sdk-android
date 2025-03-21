@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.1](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.1) - 2025-03-21
+
+### Fixed
+- Fixed bonding issues occurring when the module explicitly removes bond
+
 ## [1.5.0](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.0) - 2025-01-17
 
 ### Fixed
