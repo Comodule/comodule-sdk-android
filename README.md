@@ -100,7 +100,7 @@ discoverJob.cancel()
 
 ### Connecting to module and module status
 
-It is possible to connect to a module using the serial obtained via [`CmSdk.discoverModules`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/discover-modules.html) using [`CmSdk.connect`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/connect.html).
+It is possible to connect to a module using the serial obtained via [`CmSdk.discoverModules`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/discover-modules.html) using [`CmSdk.connect`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/connect.html). [`defaultPrivateKey`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/default-private-key.html) can be used as privateKey, unless the module is using a custom private key. See more information in the [method documentation](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/connect.html)
 
 Optionally you can subscribe to the connection state using [`CmSdk.observeConnectionState`](https://comodule.github.io/comodule-sdk-android/-comodule%20-s-d-k/com.comodule.bluetooth/-cm-sdk/index.html#-558194595/Functions/237758736).
 
@@ -125,7 +125,7 @@ cmSdk.observeConnectionError().collect { connectionError ->
 }
 
 // connect
-when (val result = cmSdk.connect(serial)) {
+when (val result = cmSdk.connect(serial = <your serial>, privateKey = defaultPrivateKey)) {
 	is CmConnectResult.Success -> TODO()
 	is CmConnectResult.Failure -> TODO()
 }
