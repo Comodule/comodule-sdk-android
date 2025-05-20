@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.2](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.2) - 2025-05-20
+
+### Fixed
+- Fixed incorrect parsing of custom private keys, which prevented module connection
+
 ## [1.5.1](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.1) - 2025-03-21
 
 ### Fixed
