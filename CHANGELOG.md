@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.4](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.4) - 2026-1-16
+
+### Fixed
+- Fixes false negative detecting updates (changes endpoint)
+
 ## [1.5.3](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.3) - 2025-11-10
 
 ### Fixed
