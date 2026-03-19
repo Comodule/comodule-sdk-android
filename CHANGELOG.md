@@ -1,6 +1,10 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [1.5.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.6) - 2026-03-19
+
+### Adds
+- Optional timestamp override when setting value
 
 ## [1.5.5](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.5) - 2026-03-09
 
