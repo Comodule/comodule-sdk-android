@@ -275,7 +275,7 @@ $dokka.location:com.comodule.bluetooth/CmSdk/observeProperties/#/PointingToDecla
 $dokka.location:com.comodule.bluetooth/CmSdk/observePropertiesInfo/#/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/observe-properties-info.html
 $dokka.location:com.comodule.bluetooth/CmSdk/observeProperty/#kotlin.String/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/observe-property.html
 $dokka.location:com.comodule.bluetooth/CmSdk/setApiKey/#kotlin.String/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/set-api-key.html
-$dokka.location:com.comodule.bluetooth/CmSdk/setPropertyValue/#kotlin.String#com.comodule.bluetooth.property.CmPropertyValue/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/set-property-value.html
+$dokka.location:com.comodule.bluetooth/CmSdk/setPropertyValue/#kotlin.String#com.comodule.bluetooth.property.CmPropertyValue#kotlin.Long?/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/set-property-value.html
 $dokka.location:com.comodule.bluetooth/CmSdk/updateFirmware/#java.lang.Class[android.app.Activity]/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk/update-firmware.html
 $dokka.location:com.comodule.bluetooth/CmSdkBuilder///PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk-builder/index.html
 $dokka.location:com.comodule.bluetooth/CmSdkBuilder/getInstance/#android.content.Context#kotlin.Boolean/PointingToDeclaration/-comodule -s-d-k/com.comodule.bluetooth/-cm-sdk-builder/get-instance.html
