@@ -1,6 +1,17 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [1.5.8](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.8) - 2026-06-02
+
+### Adds
+- Recover after receiving bad property data
+
+## [1.5.7](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.7) - 2026-04-29
+
+### Adds
+- Improves timestamp calculation
+
 ## [1.5.6](https://central.sonatype.com/artifact/com.comodule/bluetooth/1.5.6) - 2026-03-19
 
 ### Adds
